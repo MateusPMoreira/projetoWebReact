@@ -20,7 +20,7 @@ p{
   }
 
   body {
-    background-image: linear-gradient(white, gray);
+    background-image: linear-gradient(white, darkgrey);
     /* font-family: 'Roboto', sans-serif; */
     display: flex;
     justify-content: center;
@@ -38,7 +38,8 @@ p{
   }
 
   a {
-    /* color: red; */
+    
+    color: snow;
     text-decoration: none;
   }
 `;

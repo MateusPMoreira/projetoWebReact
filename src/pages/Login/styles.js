@@ -1,6 +1,12 @@
 import styled from "styled-components";
 export const Container = styled.div`
 
+body{
+  display: flex;
+  align-items: center;
+  background: no-repeat;
+}
+
 section {
 display: flex;
 justify-content: center; 
@@ -14,9 +20,10 @@ margin-top: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    width: 400px;
-    background: yellowgreen;
+    height: 350px;
+    width: 350px;
+    background: yellowgreen no-repeat;
+    
   }
 
   form {
@@ -37,11 +44,11 @@ margin-top: 65px;
     margin-bottom: 15px; 
   }
 
-  form p sub {
+  /* form p sub {
     font: 50px, Fira Code Retina;
     -webkit-font-smoothing: antialiased !important;
     color: blue;
-  }
+  } */
 
   label,
   input,
@@ -79,8 +86,12 @@ margin-top: 65px;
     color: MintCream;
     
   h5{
+    display: flex;
+    flex-direction: row;
     color: MintCream;
     font-family: Fira Code Retina;    
+    
+    
     }
 
 
